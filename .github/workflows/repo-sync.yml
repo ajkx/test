@@ -25,5 +25,5 @@ jobs:
         with:
           source_repo: "https://github.com/an0na/MyActions.git"
           source_branch: "master"
-          destination_branch: "main"
+          destination_branch: "v2"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}
